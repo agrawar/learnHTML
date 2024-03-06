@@ -1,6 +1,17 @@
 .quote {
 	font-style:italic;
 }
+.profile-picture {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
+	transition: all ease-in-out .2s;
+}
+.profile-picture:hover {
+	box-shadow: 0 8px 12px 0 rgba(34,60,80,.16);
+}
+
 .grid-table{
 	display:grid;
 	grid-template-rows: auto auto;
@@ -71,4 +82,23 @@
 	.links-and-contact{
 		grid-template-columns: 100%;
 	}
+}
+body {
+  font-family: 'Noto Sans', sans-serif;
+    color: #001f3f;
+      background-color: #caebf2;
+
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+hr{
+	 border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.container > div {
+  margin: 20px auto;
 }
